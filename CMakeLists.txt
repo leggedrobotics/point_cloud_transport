@@ -65,7 +65,7 @@ install(FILES default_plugins.xml
         DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
         )
 
-install(FILE include/debug_msg.h
+install(FILES include/debug_msg.h
   DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
 )
 
